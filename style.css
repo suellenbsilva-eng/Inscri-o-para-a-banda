@@ -1,0 +1,57 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center; 
+
+    background-image: url('https://media.pitchfork.com/photos/66701f4de51e292305b929b8/2:1/w_2560%2Cc_limit/Coldplay.jpg');
+ 
+  background-repeat: no-repeat;  /* Impede a repetição da imagem */
+  background-size: cover;        /* Ajusta a imagem para cobrir toda a área */
+  background-position: center;   /* Centraliza a imagem no ecrã */
+  background-attachment: fixed;  /* Mantém a imagem fixa ao fazer scroll (opcional) */
+
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  min-height: 100vh;       /* Ocupa a altura total da janela */
+  margin: 0;               /* Remove margens padrão */
+}
+
+form{
+background-image: linear-gradient(10deg,#7fe3fc, #805ff5, rgb(62, 14, 236));
+width: 300px;
+margin: 50px auto;
+padding: 20px;
+border-radius: 20px;
+}
+
+label{
+display: block;
+margin-top: 15px;
+
+}
+input[type = "text"],
+input[type = "number"]{
+    width: 90%;
+    padding: 10px;
+    margin-top: 6px;
+    border: none;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(160, 132, 206);
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+button:hover{
+    background-color: rgb(233, 212, 227);
+}
+
+
